@@ -23,7 +23,7 @@ export function Projects() {
     {
       id: 1,
       title: "DASHBOARD COMERCIAL",
-      category: "Business Intelligence",
+      category: "Sales Analytics",
       objectives: [
         "Acompanhar vendas por tempo e mais",
         "Análise da margem de lucro (%)",
@@ -37,33 +37,33 @@ export function Projects() {
     },
     {
       id: 2,
-      title: "DASHBOARD DE LOGÍSTICA",
+      title: "DASHBOARD LOGÍSTICO",
       category: "Supply Chain",
       objectives: [
-        "Monitoramento de entregas em tempo real",
-        "Análise de tempo de entrega (on time in full)",
-        "Performance dos transportadores de acordo com a região",
-        "TOP clientes, representatividade dos desvios operacionais e volume transportado"
+        "Monitoramento de custos",
+        "Análise de entregas no prazo",
+        "Panorama de ocorrências por motivo e região",
+        "Representatividade do volume de pedidos por estado e cidade"
       ],
-      indicators: ["Entregas", "OTIF", "Transportadores", "Desvios"],
-      details: "Sistema de monitoramento logístico com análise de performance de entregas e transportadores. Controle de KPIs logísticos e otimização de rotas.",
-      image: "/assets/dashboard-logistica.jpg",
-      link: "https://app.powerbi.com/view?r=eyJrIjoiMjU4MzU4OTYtZTg2ZS00Y2M4LTg5ODctOGExOGY3MDg2ODM5IiwidCI6ImFiOGFiMGMyLTQ4ZTYtNDQ4Yy04YWJkLTk1MWViYzgxYjk0NCJ9"
+      indicators: ["Custo Logístico", "Entregas", "OTIF", "Desvios"],
+      details: "Sistema de monitoramento logístico com análise de performance de custos e entregas. Controle de KPIs logísticos e otimização de rotas.",
+      image: "/assets/dashboard-logistico.png",
+      link: "https://app.powerbi.com/view?r=eyJrIjoiZmUxMzM2YmQtY2ZlNi00ZDM3LWExZjgtYWQ3OTYyNGQ2MTBiIiwidCI6ImFiOGFiMGMyLTQ4ZTYtNDQ4Yy04YWJkLTk1MWViYzgxYjk0NCJ9"
     },
     {
       id: 3,
       title: "DASHBOARD FINANCEIRO",
       category: "Finance",
       objectives: [
-        "Controle de fluxo de caixa",
-        "Análise de receitas vs despesas",
-        "Operação MoM (Month Over Month) de despesas",
-        "Margem de contribuição, saldo ao longo do tempo e também por centro de custo"
+        "Análise de lucro por ano",
+        "Detalhamento financeiro",
+        "Operação MoM (Month Over Month) de receitas",
+        "Comparação de custos e despesa por tipo"
       ],
-      indicators: ["Fluxo de Caixa", "Receitas vs Despesas", "MoM", "Margem"],
-      details: "Dashboard financeiro para controle de fluxo de caixa e análise de receitas e despesas. Inclui projeções financeiras e análise de rentabilidade por centro de custo.",
-      image: "/assets/dashboard-financeiro.jpg",
-      link: "https://app.powerbi.com/view?r=eyJrIjoiMjU4MzU4OTYtZTg2ZS00Y2M4LTg5ODctOGExOGY3MDg2ODM5IiwidCI6ImFiOGFiMGMyLTQ4ZTYtNDQ4Yy04YWJkLTk1MWViYzgxYjk0NCJ9"
+      indicators: ["Rentabilidade Anual", "Receitas vs Despesas", "MoM", "Margem"],
+      details: "Dashboard financeiro para  e análise de receitas e despesas. Inclui projeções financeiras e análise de rentabilidade por ano.",
+      image: "/assets/dashboard-financeiro.png",
+      link: "https://app.powerbi.com/view?r=eyJrIjoiNzhjN2Y4NTktODY0Mi00NzQwLWI0ZDAtNGE4NGUzMDI0MzY3IiwidCI6ImFiOGFiMGMyLTQ4ZTYtNDQ4Yy04YWJkLTk1MWViYzgxYjk0NCJ9"
     },
     {
       id: 4,
