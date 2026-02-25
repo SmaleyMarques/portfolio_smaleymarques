@@ -64,52 +64,52 @@ export function Projects() {
       details: "Dashboard financeiro para  e análise de receitas e despesas. Inclui projeções financeiras e análise de rentabilidade por ano.",
       image: "/assets/dashboard-financeiro.png",
       link: "https://app.powerbi.com/view?r=eyJrIjoiNzhjN2Y4NTktODY0Mi00NzQwLWI0ZDAtNGE4NGUzMDI0MzY3IiwidCI6ImFiOGFiMGMyLTQ4ZTYtNDQ4Yy04YWJkLTk1MWViYzgxYjk0NCJ9"
-    },
-    {
-      id: 4,
-      title: "DASHBOARD DE VENDAS",
-      category: "Sales Analytics",
-      objectives: [
-        "Análise de funil de vendas",
-        "Performance individual dos vendedores",
-        "Previsão de vendas baseada em histórico",
-        "Análise de sazonalidade e tendências"
-      ],
-      indicators: ["Funil", "Performance", "Previsão", "Tendências"],
-      details: "Dashboard especializado em análise de vendas com foco em performance individual, previsões e identificação de oportunidades de crescimento.",
-      image: "/assets/dashboard-vendas.jpg",
-      link: "https://app.powerbi.com/view?r=eyJrIjoiMjU4MzU4OTYtZTg2ZS00Y2M4LTg5ODctOGExOGY3MDg2ODM5IiwidCI6ImFiOGFiMGMyLTQ4ZTYtNDQ4Yy04YWJkLTk1MWViYzgxYjk0NCJ9"
-    },
-    {
-      id: 5,
-      title: "DASHBOARD DE RH",
-      category: "Human Resources",
-      objectives: [
-        "Análise de turnover e retenção",
-        "Monitoramento de performance dos colaboradores",
-        "Controle de custos com pessoal",
-        "Análise de satisfação e engajamento"
-      ],
-      indicators: ["Turnover", "Performance", "Custos", "Satisfação"],
-      details: "Dashboard de recursos humanos para análise de indicadores de pessoas, incluindo turnover, performance e custos operacionais com pessoal.",
-      image: "/assets/dashboard-rh.jpg",
-      link: "https://app.powerbi.com/view?r=eyJrIjoiMjU4MzU4OTYtZTg2ZS00Y2M4LTg5ODctOGExOGY3MDg2ODM5IiwidCI6ImFiOGFiMGMyLTQ4ZTYtNDQ4Yy04YWJkLTk1MWViYzgxYjk0NCJ9"
-    },
-    {
-      id: 6,
-      title: "DASHBOARD DE MARKETING",
-      category: "Marketing Analytics",
-      objectives: [
-        "ROI de campanhas de marketing",
-        "Análise de conversão por canal",
-        "Custo de aquisição de clientes (CAC)",
-        "Lifetime Value (LTV) dos clientes"
-      ],
-      indicators: ["ROI", "Conversão", "CAC", "LTV"],
-      details: "Dashboard de marketing digital com análise de performance de campanhas, ROI e métricas de aquisição e retenção de clientes.",
-      image: "/assets/dashboard-marketing.jpg",
-      link: "https://app.powerbi.com/view?r=eyJrIjoiMjU4MzU4OTYtZTg2ZS00Y2M4LTg5ODctOGExOGY3MDg2ODM5IiwidCI6ImFiOGFiMGMyLTQ4ZTYtNDQ4Yy04YWJkLTk1MWViYzgxYjk0NCJ9"
     }
+    // {
+    //   id: 4,
+    //   title: "DASHBOARD DE VENDAS",
+    //   category: "Sales Analytics",
+    //   objectives: [
+    //     "Análise de funil de vendas",
+    //     "Performance individual dos vendedores",
+    //     "Previsão de vendas baseada em histórico",
+    //     "Análise de sazonalidade e tendências"
+    //   ],
+    //   indicators: ["Funil", "Performance", "Previsão", "Tendências"],
+    //   details: "Dashboard especializado em análise de vendas com foco em performance individual, previsões e identificação de oportunidades de crescimento.",
+    //   image: "/assets/dashboard-vendas.jpg",
+    //   link: "https://app.powerbi.com/view?r=eyJrIjoiMjU4MzU4OTYtZTg2ZS00Y2M4LTg5ODctOGExOGY3MDg2ODM5IiwidCI6ImFiOGFiMGMyLTQ4ZTYtNDQ4Yy04YWJkLTk1MWViYzgxYjk0NCJ9"
+    // },
+    // {
+    //   id: 5,
+    //   title: "DASHBOARD DE RH",
+    //   category: "Human Resources",
+    //   objectives: [
+    //     "Análise de turnover e retenção",
+    //     "Monitoramento de performance dos colaboradores",
+    //     "Controle de custos com pessoal",
+    //     "Análise de satisfação e engajamento"
+    //   ],
+    //   indicators: ["Turnover", "Performance", "Custos", "Satisfação"],
+    //   details: "Dashboard de recursos humanos para análise de indicadores de pessoas, incluindo turnover, performance e custos operacionais com pessoal.",
+    //   image: "/assets/dashboard-rh.jpg",
+    //   link: "https://app.powerbi.com/view?r=eyJrIjoiMjU4MzU4OTYtZTg2ZS00Y2M4LTg5ODctOGExOGY3MDg2ODM5IiwidCI6ImFiOGFiMGMyLTQ4ZTYtNDQ4Yy04YWJkLTk1MWViYzgxYjk0NCJ9"
+    // },
+    // {
+    //   id: 6,
+    //   title: "DASHBOARD DE MARKETING",
+    //   category: "Marketing Analytics",
+    //   objectives: [
+    //     "ROI de campanhas de marketing",
+    //     "Análise de conversão por canal",
+    //     "Custo de aquisição de clientes (CAC)",
+    //     "Lifetime Value (LTV) dos clientes"
+    //   ],
+    //   indicators: ["ROI", "Conversão", "CAC", "LTV"],
+    //   details: "Dashboard de marketing digital com análise de performance de campanhas, ROI e métricas de aquisição e retenção de clientes.",
+    //   image: "/assets/dashboard-marketing.jpg",
+    //   link: "https://app.powerbi.com/view?r=eyJrIjoiMjU4MzU4OTYtZTg2ZS00Y2M4LTg5ODctOGExOGY3MDg2ODM5IiwidCI6ImFiOGFiMGMyLTQ4ZTYtNDQ4Yy04YWJkLTk1MWViYzgxYjk0NCJ9"
+    // }
   ];
 
   // Responsive items per page
