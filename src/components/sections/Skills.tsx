@@ -1,7 +1,12 @@
+import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { BarChart, Palette, Database, Code } from 'lucide-react';
 
 export function Skills() {
+  const scrollToSection = (sectionId: string) => {
+    document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth' });
+  };
+  
   const skillCategories = [
     {
       icon: <BarChart className="w-12 h-12 text-purple-500" />,
@@ -71,10 +76,15 @@ export function Skills() {
 
         {/* Call to Action */}
         <div className="text-center mt-16">
-          <div className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-600 to-blue-600 text-white px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer group">
-            <span className="font-medium">Clique aqui para visualizar os meus projetos</span>
+          <Button
+            onClick={() => scrollToSection('projects')}
+            className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-600 to-blue-600 text-white px-8 py-6 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer group"
+          >
+            <span className="font-medium">
+              Clique aqui para visualizar os meus projetos
+              </span>
             <span className="group-hover:translate-x-1 transition-transform">→</span>
-          </div>
+          </Button>
         </div>
       </div>
     </section>
